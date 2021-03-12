@@ -24,11 +24,11 @@ a {
 }
 
 h1 {
-	font-size: 6rem;
+	font-size: 6.5rem;
 }
 
 h3 {
-	font-size: 1.75rem;
+	font-size: 2rem;
 	padding-bottom: 1.25rem;
 }
 
@@ -54,6 +54,10 @@ a {
 }
 
 /* Structure */
+
+.container {
+	max-width: 1200px;
+}
 
 .img-profile {
 	max-width: 300px;
