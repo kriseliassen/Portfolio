@@ -29,7 +29,6 @@ h1 {
 
 h3 {
 	font-size: 2rem;
-	padding-bottom: 1.25rem;
 }
 
 a {
@@ -77,6 +76,7 @@ a {
 	padding: 10px 15px;
 	border-radius: 30px;
 	border: none;
+	margin-top: 2rem;
 }
 
 .btn:hover,
