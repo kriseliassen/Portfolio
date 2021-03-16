@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+:root {
+	--img-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 body {
 	border: 20px solid #ffbccd;
 	min-height: 100vh;
@@ -34,6 +38,7 @@ h2 {
 
 h3 {
 	font-size: 2rem;
+	text-align: center;
 }
 
 a {
@@ -50,9 +55,9 @@ a {
 	font-size: 1.75rem;
 }
 
-.project-title {
+.caption {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	letter-spacing: 0.05em;
 }
 
@@ -86,15 +91,16 @@ a {
 	justify-content: space-evenly;
 }
 
-.project {
+.project-card {
 	margin: 10px 15px;
 	max-width: 400px;
 }
 
-.project img {
+.project-card img {
 	padding: 5px;
-	border: 5px solid #ffd3de;
+
 	margin-bottom: 10px;
+	box-shadow: var(--img-shadow);
 }
 
 /* Buttons */
