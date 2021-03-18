@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
 	margin: 0;
 	padding: 0;
 }
@@ -16,6 +18,7 @@ body {
 
 h1,
 h2,
+h4,
 .logo,
 .nav-link {
 	font-family: "Bebas Neue", cursive;
@@ -37,9 +40,13 @@ h2 {
 }
 
 h3,
+h4,
 a {
 	font-size: 2rem;
-	text-align: center;
+}
+
+h4 {
+	color: black;
 }
 
 a {
@@ -59,6 +66,11 @@ a {
 .caption {
 	text-align: center;
 	font-size: 2rem;
+	letter-spacing: 0.05em;
+}
+
+.project-title {
+	margin-top: 1rem;
 	letter-spacing: 0.05em;
 }
 
@@ -87,29 +99,13 @@ a {
 	padding: 3.5rem 1rem 2.5rem 1rem;
 }
 
-.project-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+/* Project images */
+.projects img {
+	max-height: 300px;
+	object-fit: cover;
+	padding: 0.5em;
+	border: 4px solid #ffd3de;
 }
-
-.projects {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.project-card {
-	margin: 10px 15px;
-	max-width: 400px;
-}
-
-.project-card img {
-	padding: 5px;
-
-	margin-bottom: 10px;
-	box-shadow: var(--img-shadow);
-}
-
 /* Buttons */
 
 .btn {
@@ -135,7 +131,7 @@ a {
 }
 
 .btn-center {
-	align-self: center;
+	text-align: center;
 }
 
 /*Media queries*/
