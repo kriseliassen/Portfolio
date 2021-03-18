@@ -89,18 +89,17 @@ a {
 	max-width: 1200px;
 }
 
-.img-profile {
-	max-width: 300px;
-	border-radius: 50%;
-	border: 6px solid var(--secondary-color);
-}
-
 .header {
 	display: flex;
 	justify-content: space-around;
 	padding: 3.5rem 1rem 2.5rem 1rem;
 }
 
+.img-profile {
+	max-width: 300px;
+	border-radius: 50%;
+	border: 6px solid var(--secondary-color);
+}
 /* Project images */
 .projects img {
 	max-height: 270px;
@@ -125,12 +124,8 @@ a {
 }
 
 .btn-primary {
-	background: var(--secondary-color);
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-	background: var(--secondary-color);
+	/*background: var(--secondary-color);*/
+	background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
 }
 
 .btn-center {
