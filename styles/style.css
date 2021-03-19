@@ -58,6 +58,11 @@ a {
 	letter-spacing: 0.05em;
 }
 
+a:hover,
+a:focus {
+	color: var(--secondary-color);
+}
+
 .logo {
 	font-size: 2.5rem;
 }
@@ -124,7 +129,6 @@ a {
 }
 
 .btn-primary {
-	/*background: var(--secondary-color);*/
 	background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
 }
 

@@ -1,0 +1,19 @@
+.description {
+	width: 40%;
+	margin: 7% 150px;
+}
+
+.title {
+	margin-bottom: 40px;
+}
+
+.title h2 {
+	font-size: 3rem;
+}
+
+.img-about img {
+	max-width: 600px;
+	border-radius: 50%;
+	border: 6px solid var(--secondary-color);
+	margin-top: 15%;
+}
