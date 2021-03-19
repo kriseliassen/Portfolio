@@ -1,0 +1,11 @@
+.project {
+	padding-top: 50px;
+}
+
+.project-desc {
+	padding: 3rem;
+}
+
+.project-img {
+	box-shadow: var(--img-shadow);
+}

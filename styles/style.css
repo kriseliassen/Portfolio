@@ -6,7 +6,7 @@
 }
 
 :root {
-	--img-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	--img-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	--primary-color: #ffd3de;
 	--secondary-color: #3f8f8d;
 	--tertiary-color: #5dc0a6;
