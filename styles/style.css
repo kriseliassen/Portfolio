@@ -91,20 +91,16 @@ a:focus {
 /* Structure */
 
 .container {
-	max-width: 1200px;
+	max-width: 1400px;
 }
 
-.header {
+.hero {
 	display: flex;
 	justify-content: space-around;
-	padding: 3.5rem 1rem 2.5rem 1rem;
+	margin: 170px 0px;
+	text-align: center;
 }
 
-.img-profile {
-	max-width: 300px;
-	border-radius: 50%;
-	border: 6px solid var(--secondary-color);
-}
 /* Project images */
 .projects img {
 	max-height: 270px;
@@ -134,6 +130,10 @@ a:focus {
 
 .btn-center {
 	text-align: center;
+}
+
+.btn-left {
+	text-align: left;
 }
 
 /*Media queries*/
