@@ -17,3 +17,7 @@
 	border: 6px solid var(--secondary-color);
 	margin-top: 15%;
 }
+
+a {
+	font-size: 1em;
+}
