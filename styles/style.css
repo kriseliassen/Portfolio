@@ -115,10 +115,10 @@ a:focus {
 
 /* Project images */
 .projects img {
-	max-height: 270px;
-	object-fit: cover;
+	/*max-height: 270px;
+	object-fit: cover;*/
 	padding: 0.5em;
-	border: 4px solid rgba(63, 143, 141, 0.8);
+	/*border: 4px solid rgba(63, 143, 141, 0.8);*/
 	border-radius: 5px;
 }
 /* Buttons */
