@@ -1,6 +1,6 @@
 .description {
-	width: 40%;
 	margin: 7% 150px;
+	width: 40%;
 }
 
 .title {
@@ -11,13 +11,23 @@
 	font-size: 3rem;
 }
 
+.img-about {
+	margin-right: 50px;
+	margin-top: 8rem;
+}
+
 .img-about img {
-	max-width: 600px;
 	border-radius: 50%;
 	border: 6px solid var(--secondary-color);
-	margin-top: 15%;
 }
 
 a {
 	font-size: 1em;
+}
+
+@media (max-width: 750px) {
+	.description {
+		margin: 20px 20px;
+		width: 70%;
+	}
 }

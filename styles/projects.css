@@ -12,4 +12,20 @@
 .project-img {
 	border-radius: 5px;
 	object-fit: cover;
+	min-width: 250px;
+}
+
+@media (max-width: 750px) {
+	h2 {
+		font-size: 3.5rem;
+		margin-top: 0.8rem;
+	}
+
+	.project-desc {
+		padding: 0;
+	}
+
+	.btn-lg-center {
+		text-align: center;
+	}
 }
