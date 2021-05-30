@@ -30,4 +30,8 @@ a {
 		margin: 20px 20px;
 		width: 70%;
 	}
+
+	.btn-lg-center {
+		text-align: center;
+	}
 }

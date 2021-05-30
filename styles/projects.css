@@ -1,3 +1,7 @@
+h2 {
+	text-align: left;
+}
+
 .project {
 	background: rgba(255, 211, 222, 0.3);
 	padding: 30px 15px;
@@ -18,6 +22,7 @@
 	h2 {
 		font-size: 3.5rem;
 		margin-top: 0.8rem;
+		text-align: center;
 	}
 
 	.project-desc {
